@@ -1,0 +1,643 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gU",
+				"gUnknown_083D9D6C"
+			],
+			[
+				"g",
+				"gBattleAnimArgs"
+			],
+			[
+				"sp",
+				"sprite"
+			],
+			[
+				"gA",
+				"gAnimDisableStructPtr"
+			],
+			[
+				"spr",
+				"sprite"
+			],
+			[
+				"sub",
+				"subpriority"
+			],
+			[
+				"gB",
+				"gBattleAnimArgs"
+			],
+			[
+				"gS",
+				"gSineTable"
+			],
+			[
+				"De",
+				"DestroySprite"
+			],
+			[
+				"in",
+				"inBattle"
+			],
+			[
+				"G",
+				"GetBattlerSpriteCoord"
+			],
+			[
+				"Get",
+				"GetBattlerSpriteCoord"
+			],
+			[
+				"gBa",
+				"gBattleAnimArgs"
+			],
+			[
+				"t",
+				"taskId"
+			],
+			[
+				"REG",
+				"REG_BG1CNT"
+			],
+			[
+				"R",
+				"REG_BG1CNT"
+			],
+			[
+				"I",
+				"InitAnimSpritePos"
+			],
+			[
+				"ti",
+				"tileNum"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"pos",
+				"pos1"
+			],
+			[
+				"0xFF",
+				"0xFF"
+			],
+			[
+				"po",
+				"pos2"
+			],
+			[
+				"S",
+				"StoreSpriteCallbackInData"
+			],
+			[
+				"Ge",
+				"GetBattlerSide"
+			],
+			[
+				"Re",
+				"ResetTasks"
+			],
+			[
+				"Rese",
+				"ResetSpriteData"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/Thomas/Documents/College/Career/Projects/ProjectOutlines.txt",
+			"settings":
+			{
+				"buffer_size": 3989,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Thomas/Documents/College/Career/Projects/Correlation-Finder/correlation/commands",
+			"settings":
+			{
+				"buffer_size": 119,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Thomas/Documents/College/Career/Projects/Correlation-Finder/correlation/setup.py",
+			"settings":
+			{
+				"buffer_size": 425,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Thomas/Documents/College/Career/Projects/Correlation-Finder/correlation/samples/testing.py",
+			"settings":
+			{
+				"buffer_size": 1401,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "container.py",
+			"settings":
+			{
+				"buffer_size": 12684,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#=============================================================================#\n#\n# Sample Rules:\n# \n#   If Height > 180 cm Then Male\n#   If Height <= 180 cm AND Weight >  80 kg Then Male\n#   If Height <= 180 cm AND Weight <= 80 kg Then Female\n#\n#=============================================================================#\n\nimport math\n\nimport sklearn as skl\n\n#import .linear_regression\n#import ..container\n\nfrom .  import linear_regression\nfrom .. import container\n\n#=============================================================================#\n# \n# Actual Rules:\n# \n#   If linear_regression_r > .99 Then good enough\n# \n#=============================================================================#\n\ndef predict(self):\n\n    pass\n\n\n\ndef MakeDecision(self):\n\n    predict()\n\n    pass\n\n\n",
+			"file": "analysis/decision_tree.py",
+			"file_size": 788,
+			"file_write_time": 131797811800000000,
+			"settings":
+			{
+				"buffer_size": 789,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "analysis/linear_regression.py",
+			"settings":
+			{
+				"buffer_size": 653,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "io/parse_plaintext.py",
+			"settings":
+			{
+				"buffer_size": 116,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Thomas/Documents/College/Career/Projects/Correlation-Finder/correlation",
+		"/Users/Thomas/Documents/College/Career/Projects/Correlation-Finder/correlation/correlation",
+		"/Users/Thomas/Documents/College/Career/Projects/Correlation-Finder/correlation/correlation/analysis",
+		"/Users/Thomas/Documents/College/Career/Projects/Correlation-Finder/correlation/correlation/io",
+		"/Users/Thomas/Documents/College/Career/Projects/Correlation-Finder/correlation/samples"
+	],
+	"file_history":
+	[
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/rhmc/src/rom.cpp",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/testing/current_func",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/testing/pokecrystal/bt-evs.py",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeemerald/INSTALL.md",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeemerald/src/region_map.c",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeruby-heal-loc/data/event_scripts.s",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeruby/INSTALL.md",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeruby/data-de/event_scripts.s",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeruby/src/region_map.c",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/notes",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/Tools/pretmap_release_steps",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/planning/notes",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/planning/pokedex",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/planning/pokepainter",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/planning/devlog",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/planning/characters",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/planning/hackathon",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/planning/pokeruby_notes",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/mysteps",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/planning/story/features",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeemerald/Makefile",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeruby/asm/ice.s",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeruby/pokeruby.map",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/sample.s",
+		"/Users/Thomas/.Trash/pokeruby/src/battle/anim/ice.c",
+		"/Users/Thomas/Documents/College/Career/Projects/pokehack_gui/features",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/planning/story/story",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/planning/ideas",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/current_func.s",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/planning/region/mapnotes",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeemerald/ld_script.txt",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeemerald/.gitignore",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeruby/src/pokedex_area_screen.c",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeemerald/src/pokedex_area_screen.c",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeemerald/asm/pokedex_area_screen.s",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeemerald/asm/shop.s",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeemerald/src/shop.c",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeemerald/tools/aif2pcm/main.c",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeemerald/tools/aif2pcm/Makefile",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeemerald/tools/bin2c/Makefile",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeemerald/tools/scaninc/Makefile",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeemerald/tools/gbagfx/Makefile",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeemerald/tools/rsfont/Makefile",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeemerald/tools/ramscrgen/Makefile",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeemerald/tools/preproc/Makefile",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeemerald/tools/mid2agb/Makefile",
+		"/Users/Thomas/Documents/College/Career/Projects/pkmn/pokeemerald/out.make"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/Thomas/Documents/College/Career/Projects/Correlation-Finder/correlation"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/Thomas/Documents/College/Career/Projects/ProjectOutlines.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3989,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/Thomas/Documents/College/Career/Projects/Correlation-Finder/correlation/commands",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/Thomas/Documents/College/Career/Projects/Correlation-Finder/correlation/setup.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								425,
+								425
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/Thomas/Documents/College/Career/Projects/Correlation-Finder/correlation/samples/testing.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								270,
+								270
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 431.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "container.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12075,
+								12075
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4968.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "analysis/decision_tree.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								789,
+								789
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "analysis/linear_regression.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 653,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "io/parse_plaintext.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 299.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
