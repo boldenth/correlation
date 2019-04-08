@@ -1,7 +1,7 @@
 import sys
+import os
 
-sys.path.append('/Users/Thomas/Documents/College/\
-Career/Projects/Correlation-Finder/correlation')
+sys.path.append(os.getcwd() + '/correlation')
 
 import numpy as np
 import pandas as pd

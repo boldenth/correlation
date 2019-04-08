@@ -12,14 +12,14 @@ correlation imports
 # 
 #=============================================================================#
 
-__version__ = "1.0"
+__version__ = "0.3"
 
 
 
-import numpy #as np 
-import pandas #as pd 
-import scipy #as sp
-import sklearn #as skl
+import numpy
+import pandas
+import scipy
+import sklearn
 #import matplotlib.pyplot as plt
 
 from correlation.container import Container

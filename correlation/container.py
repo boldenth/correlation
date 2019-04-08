@@ -53,8 +53,9 @@ class Container(object):
             self.set_dataframe(filename)
 
         if keep_cols is not None:
-            #print("keeping cols") ### REMOVE
+            #print("keeping cols") ### TODO: test, REMOVE
             self.keep_only_relevant_data(keep_cols)
+
 
     def reshape(self):
 
@@ -66,6 +67,7 @@ class Container(object):
 
         self.size = self.df.shape[0]
 
+
     def set_dataframe(self, filename):
         ''' 
         non-empty initialization from file passed 
@@ -73,6 +75,7 @@ class Container(object):
 
         self.df = convert_file(filename)
         self.reshape()
+
 
     def get_range(self, column=""):
         ''' 
@@ -83,6 +86,7 @@ class Container(object):
 
         return (values.min(), values.max())
 
+
     def set_active(self, col_names=None):
         '''
         col_names is a 2-tuple of column names to do analysis on
@@ -91,6 +95,7 @@ class Container(object):
         if col_names is not None and isinstance(col_names, tuple):
 
             self.active = col_names
+
 
     def return_col(self, col_num=None, col_name=None):
         ''' 
@@ -106,6 +111,7 @@ class Container(object):
 
         else:
             return pd.Series()
+
 
     def keep_only_relevant_data(self, columns=[]):
         ''' 
@@ -127,6 +133,7 @@ class Container(object):
 
         self.df = temp_df
         self.reshape()
+
 
     def resolve_dates(self, cols=None, combine=None, dateonly=True): 
         ''' 
@@ -202,6 +209,7 @@ class Container(object):
 
         pass
 
+
     def shorten(self, data_range=None, stepsize=1, incriment_step_by="day",
                       keep_rows=None):
         '''
@@ -231,6 +239,7 @@ class Container(object):
             pass
 
         self.resize()
+
 
     def overlap(self, other, match_cols=None):
         '''
@@ -278,6 +287,7 @@ class Container(object):
         self.reshape()
         other.reshape()
 
+
     def sort_column_by(self, col_name=None, criteria=None): # TODO
         ''' 
         sorts column col_name by specified criteria
@@ -286,6 +296,7 @@ class Container(object):
         self.reshape()
 
         pass
+
 
     def average_each_year(self, row=1): # TODO
         '''
@@ -296,6 +307,7 @@ class Container(object):
         self.reshape()
 
         pass
+
 
     def add_each_year(self, row=1, date_col=None, col_name=None, 
                             extrapolate=False):
@@ -329,13 +341,14 @@ class Container(object):
                                   .reset_index(drop=True)
 
         except AttributeError: # older version\
-            print("FYI you should totally update Pandas >= 0.17.0")
+            print("FYI you should totally update to Pandas >= 0.17.0")
             self.df = pd.DataFrame(list(temp_dict.items()), 
                                    columns=["year",col_name])\
                                   .sort("year")\
                                   .reset_index(drop=True)
 
         self.reshape()
+
 
     def normalize_column(self, col_name=None, zero=False):
         '''
@@ -364,6 +377,7 @@ class Container(object):
             self.df["normalized " + c] = temp_col
 
         self.reshape()
+
 
     def combine(self, other, x1=None, x2=None, y1=None, y2=None, zero=False):
         '''
@@ -396,33 +410,41 @@ class Container(object):
 
         return temp_ct
 
+
     def __lt__(self, other):
 
         return self.size < other.size
+
 
     def __le__(self, other):
 
         return self.size <= other.size
 
+
     def __eq__(self, other):
 
         return self.size == other.size
+
 
     def __ne__(self, other):
 
         return self.size != other.size
 
+
     def __gt__(self, other):
 
         return self.size > other.size
+
 
     def __ge__(self, other):
 
         return self.size >= other.size
 
+
     def __repr__(self):
         
         return "Container ({} rows) {}".format(self.size, self.labels)
+
 
     def __bool__(self):
 

@@ -2,14 +2,14 @@ import os
 import sys
 from setuptools import setup, find_packages
 
-VERSION = "1.0"
+VERSION = "0.6"
 
 setup(
     name="correlation",
     version=VERSION,
     description="",
     author="Thomas Bolden",
-    url="https://github.com/ThomasBolden/correlation",
+    url="https://github.com/boldenth/correlation",
     packages=find_packages,
     install_requires=[
         'matplotlib>=1.5.3', # 2.0.0 ?
